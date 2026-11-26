@@ -2,9 +2,9 @@
 
 AI Engineer in Seoul. I build multilingual LLM agents and hybrid RAG, and I measure them before and after every change.
 
-In 2026 I led a 3-person AI team (2 engineers and me) at RAAF Group in Kazakhstan, on a fixed-term contract. We built LLM tools that were piloted in two of the group's business units:
+In 2026 I led a 3-person AI team (2 engineers and me) at RAAF Group, a construction and real-estate group in Kazakhstan with 500+ employees, on a fixed-term contract. We built LLM tools that were piloted in two of the group's business units:
 
-- An agent that turns staff interviews in Russian, Kazakh and English into process steps, piloted with 20+ employees
+- An agent that turns staff interviews in Russian, Kazakh and English into process steps, deployed on the group's servers (Docker, FastAPI, Langfuse): 50+ interviews with 20+ employees in a 2-month pilot
 - LLM cost per interview cut from about $0.33 to about $0.01 (97%) at the same 90%+ eval pass rate: a 4-model bake-off showed a smaller Qwen model could replace Claude; prompt caching and batched post-processing did the rest
 - Extended reasoning turned off and each agent turn merged into one schema-validated JSON reply: model time per interview from 10–15 min to under 2.5 min, invalid replies from 33% to 5%, all fixed by one automatic retry
 - An 80-scenario evaluation harness in three languages, co-built with a teammate, with a spot-checked LLM judge; releases shipped only after passing it
@@ -38,7 +38,7 @@ That work is not public. The two agent repositories below are independent projec
 
 ## Background
 
-- AI Geeks, an AI consulting startup in Seoul (full-time contractor, remote, 2024–2026). Technical Manager on 6 AI and data projects (3 of 6 clients came back with follow-on work), then AI Engineer: a resume-to-role matching agent that agreed with recruiters' top pick for 96.6% of 46 resumes
+- AI Geeks, an AI consulting startup in Seoul (full-time contractor, remote, 2024–2026). Technical Manager on 6 AI and data projects (3 of 6 clients came back with follow-on work), then AI Engineer: a resume-to-role matching agent on AWS that agreed with recruiters' top pick for 96.6% of 46 resumes
 - Part-time evening AI instructor at VeraVla edu: 80+ career-changers taught, including a module I added on AI agents
 - B.Sc. in Data Science, Hanyang University (scholarship): final semester with a light course load, graduating Aug 2027
 
